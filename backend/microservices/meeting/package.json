@@ -11,10 +11,20 @@
   "engines": {
     "node": ">=18"
   },
-  "keywords": ["microservice", "express", "swagger", "meeting"],
+  "keywords": [
+    "microservice",
+    "express",
+    "swagger",
+    "meeting"
+  ],
   "license": "MIT",
   "dependencies": {
-    "express": "^5.1.0",
+    "eureka-js-client": "^4.5.0",
+    "express": "^5.2.1",
     "swagger-ui-express": "^5.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
